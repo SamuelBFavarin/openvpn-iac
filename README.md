@@ -1,6 +1,6 @@
-# OpenVPN IAC
+# OpenVPN IaC 
 
-If you're an expatriate, you've probably missed consuming local content from your home country. Some streaming services and certain content are only available within the territory of your former country. Based on this issue, I decided to implement my own VPN using OpenVPN, AWS, and Terraform.
+If you're an expat, you've probably missed consuming local content from your home country 🇧🇷. Some streaming services and certain content are only available within the territory of your former country. Based on this issue, I decided to implement my own VPN using OpenVPN, AWS, and Terraform.
 
 All this code was based on another repository (https://github.com/dumrauf/openvpn-terraform-install), with just a few changes. I added a different way to send credentials to the AWS provider. I also added an option to define the availability zone, as I was facing some deployment issues with my EC2 instance in the São Paulo region (sa-east-1).
 
