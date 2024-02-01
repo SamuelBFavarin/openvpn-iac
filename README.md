@@ -132,6 +132,13 @@ In case `openvpn` isn't readily available from the terminal after the installati
 export PATH=$(brew --prefix openvpn)/sbin:$PATH
 ```
 Assuming a valid OpenVPN configuration has been downloaded to `generated/ovpn-config/userOne.ovpn `, the connection can be tested by initiating the actual `openvpn` connection by running
+
+
+## How Do I Configure OpenVPN Access on My Mac?
+Please refer to the excellent guide on Downloading and Installing Tunnelblick.
+
+## How Do I Configure OpenVPN Access On My iPhone?
+Please refer to the excellent guide on how to Install OpenVPN on iOS. For transferring .ovpn configurations onto your iPhone, please refer to Transfer Files to Your Mobile By Scanning a QR Code.
 ```
 sudo openvpn --config generated/ovpn-config/userOne.ovpn 
 ```
